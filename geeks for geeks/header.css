@@ -1,0 +1,33 @@
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    color: whitesmoke;
+    width: 100%;
+}
+
+.list_elements{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_elements li{
+    margin-left: 15px;
+}
+
+.logo{
+    /* margin-right: 20px; */
+}
+
+.profile{
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 24px;
+}
+
+.profile_pic{
+    width: 40px;
+    border-radius: 20px;
+    
+}

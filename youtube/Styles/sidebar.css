@@ -1,0 +1,55 @@
+.sidebar{
+    position: fixed;
+    top: 68px;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    padding-top: 14px;
+    z-index: 200;
+    background-color: rgb(255, 255, 255);
+}
+
+@media (min-width: 1010px){
+    .sidebar{
+        width: 210px;
+    }
+    .sidebar_link{
+        font-size: 15px;
+        font-weight: 500;
+        height: 74px;
+        display: flex;
+        align-items: center;
+        cursor: pointer; 
+    }
+    .sidebar_icons{
+        width: 40px;
+        margin-left: 40px;
+    }
+    .sidebar_link div{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1010px){
+    .sidebar_link{
+    font-size: 10px;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;    
+}
+}
+
+.sidebar_icons{
+    /* border: 2px solid black; */
+    height: 24px;
+    /* margin-bottom: 5px;  */
+}
+
+
+
+.sidebar_link:hover{
+    background-color: rgb(228, 228, 228);
+}

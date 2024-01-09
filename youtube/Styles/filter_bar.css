@@ -1,0 +1,14 @@
+.filter_bar{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    top: 66px;
+    left: 101;
+    z-index: 300;
+}
+
+.filters{
+    margin-left: 35px;
+}
